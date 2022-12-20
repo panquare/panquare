@@ -1,0 +1,131 @@
+/* Tablet */
+@media (max-width: 1000px) {
+        .header___title {
+            font-size: 50px;
+            margin-bottom: 28px;
+        }
+
+        .header___text {
+            font-size: 24px;
+            margin-bottom: 52px;
+        }
+
+        .nav___list {
+            column-gap: 60px;
+        }
+
+        
+        .slider {
+            width: 1300px;
+        }
+
+       .slide___img {
+            width: 336px;
+            height: 396px;
+           }
+
+           .slide___title {
+            bottom: 32px;
+            font-size: 80px;
+            font-weight: 800;
+            background: linear-gradient(90deg, rgba(17,68,85,1) 15% , rgba(255,255,255,1) 15%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+           }
+
+           .slide {
+            padding-left: 50px;
+           }
+} 
+
+/* Mobile */
+@media (max-width: 600px) {
+    .nav___logo {
+        max-width: 109;
+        margin-left: 9px;
+    }
+
+    .nav___list {
+        display: none;
+    }
+
+    .nav-btn {
+        display: block;
+        margin-right: 1px;
+    }
+
+    .header___content-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 27px;
+
+        color: rgb(31, 31, 31, 0.7);
+    }
+
+    .header___content {
+        display: none;
+    }
+
+    .header___logo-mobile {
+        width: 244px;
+    }
+
+    .header___content-mobile-text {
+        max-width: 237px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .header___arrows {
+        width: 19px;
+        height: 16px;
+        bottom: 32px;
+    }
+
+   .case-studies {
+    padding-top: 80px;
+    padding-bottom: 80px;
+   }
+
+   .case-studies___title {
+    margin-bottom: 7px;
+    font-size: 32px;
+   }
+
+   .title {
+    font-size: 32px;
+   }
+
+   .case-studies___text {
+    margin-bottom: 32px;
+   }
+
+   .text {
+    font-size: 16px;
+   }
+
+   .slide___img {
+    width: 224px;
+    height: 264px;
+   }
+
+   .slide {
+    padding-left: 33px;
+   }
+
+   .slider {
+    width: 546px;
+   }
+
+   .slide___title {
+    bottom: 22px;
+    font-size: 60px;
+    font-weight: 800;
+    background: linear-gradient(90deg, rgba(17,68,85,1) 15% , rgba(255,255,255,1) 15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+}
